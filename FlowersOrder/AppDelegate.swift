@@ -17,6 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
+        let backButtonImage = UIImage(named: "back")
+            UINavigationBar.appearance().backIndicatorImage = backButtonImage
+            UINavigationBar.appearance().backIndicatorTransitionMaskImage = backButtonImage
+        
         // Called when a new scene session is being created.
         // Use this method to select a configuration to create the new scene with.
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)

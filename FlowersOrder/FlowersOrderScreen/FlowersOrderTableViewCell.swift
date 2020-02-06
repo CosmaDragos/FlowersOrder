@@ -18,8 +18,8 @@ class FlowersOrderTableViewCell: UITableViewCell {
             setupCell()
         }
     }
-    
     @IBOutlet weak var deliveredToLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         smallImage.layer.cornerRadius = smallImage.bounds.width / 2

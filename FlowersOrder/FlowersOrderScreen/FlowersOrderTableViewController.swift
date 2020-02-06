@@ -23,7 +23,6 @@ class FlowersOrderTableViewController: UITableViewController {
         viewModel?.loadFlowers {
             self.tableView.reloadData()
         }
-        
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -40,12 +39,7 @@ class FlowersOrderTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        guard let detailViewController = UIStoryboard(name: "Main", bundle: Bundle.main)
-            .instantiateViewController(withIdentifier: "FlowersDetailStoryboard")
-            as? FlowersDetailViewController else { return }
         tableView.deselectRow(at: indexPath, animated: true)
-        self.present(detailViewController, animated: true)
+        viewModel?.didSelectFlower(at: indexPath)
     }
-    
 }
-

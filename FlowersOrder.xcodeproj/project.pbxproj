@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		859E358E23EC05F5004BFDCF /* FlowersDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859E358D23EC05F5004BFDCF /* FlowersDetailViewModel.swift */; };
 		E46F66C023E8902C006B0EDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46F66BF23E8902C006B0EDA /* AppDelegate.swift */; };
 		E46F66C223E8902C006B0EDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46F66C123E8902C006B0EDA /* SceneDelegate.swift */; };
 		E46F66C423E8902C006B0EDA /* FlowersOrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46F66C323E8902C006B0EDA /* FlowersOrderTableViewController.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		859E358D23EC05F5004BFDCF /* FlowersDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersDetailViewModel.swift; sourceTree = "<group>"; };
 		E46F66BC23E8902C006B0EDA /* FlowersOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowersOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46F66BF23E8902C006B0EDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E46F66C123E8902C006B0EDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		859E358623EBF085004BFDCF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E46F66C523E8902C006B0EDA /* Main.storyboard */,
+				E46F66CA23E8902E006B0EDA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		859E358723EBF09F004BFDCF /* FlowersOrderScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E46F66C323E8902C006B0EDA /* FlowersOrderTableViewController.swift */,
+				E46F66E123E89517006B0EDA /* FlowersOrderTableViewCell.swift */,
+				E4CDDA1B23E9D39D00D20A4B /* FlowersOrderViewModel.swift */,
+				E4CDDA1923E9D28B00D20A4B /* FlowersOrderService.swift */,
+				E4970F2F23EB301D0017AA8F /* Configurator.swift */,
+				E4CDDA1D23E9D89300D20A4B /* CellViewModel.swift */,
+			);
+			path = FlowersOrderScreen;
+			sourceTree = "<group>";
+		};
+		859E358823EBF11E004BFDCF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E46F66E323E8A3D2006B0EDA /* Flower.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		859E358923EBF128004BFDCF /* FlowersDetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E4CDDA2023E9E3F100D20A4B /* FlowersDetailViewController.swift */,
+				859E358D23EC05F5004BFDCF /* FlowersDetailViewModel.swift */,
+			);
+			path = FlowersDetailScreen;
+			sourceTree = "<group>";
+		};
 		E46F66B323E8902C006B0EDA = {
 			isa = PBXGroup;
 			children = (
@@ -93,20 +134,14 @@
 		E46F66BE23E8902C006B0EDA /* FlowersOrder */ = {
 			isa = PBXGroup;
 			children = (
+				859E358923EBF128004BFDCF /* FlowersDetailScreen */,
+				859E358823EBF11E004BFDCF /* Models */,
+				859E358723EBF09F004BFDCF /* FlowersOrderScreen */,
+				859E358623EBF085004BFDCF /* Storyboards */,
 				E46F66BF23E8902C006B0EDA /* AppDelegate.swift */,
 				E46F66C123E8902C006B0EDA /* SceneDelegate.swift */,
-				E46F66C323E8902C006B0EDA /* FlowersOrderTableViewController.swift */,
-				E46F66E123E89517006B0EDA /* FlowersOrderTableViewCell.swift */,
-				E46F66C523E8902C006B0EDA /* Main.storyboard */,
 				E46F66C823E8902E006B0EDA /* Assets.xcassets */,
-				E46F66CA23E8902E006B0EDA /* LaunchScreen.storyboard */,
 				E46F66CD23E8902E006B0EDA /* Info.plist */,
-				E46F66E323E8A3D2006B0EDA /* Flower.swift */,
-				E4CDDA1923E9D28B00D20A4B /* FlowersOrderService.swift */,
-				E4CDDA1B23E9D39D00D20A4B /* FlowersOrderViewModel.swift */,
-				E4CDDA1D23E9D89300D20A4B /* CellViewModel.swift */,
-				E4CDDA2023E9E3F100D20A4B /* FlowersDetailViewController.swift */,
-				E4970F2F23EB301D0017AA8F /* Configurator.swift */,
 			);
 			path = FlowersOrder;
 			sourceTree = "<group>";
@@ -221,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				859E358E23EC05F5004BFDCF /* FlowersDetailViewModel.swift in Sources */,
 				E46F66C423E8902C006B0EDA /* FlowersOrderTableViewController.swift in Sources */,
 				E4CDDA1A23E9D28B00D20A4B /* FlowersOrderService.swift in Sources */,
 				E4CDDA2123E9E3F100D20A4B /* FlowersDetailViewController.swift in Sources */,

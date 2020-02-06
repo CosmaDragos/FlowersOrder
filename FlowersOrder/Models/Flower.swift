@@ -8,7 +8,6 @@
 import Foundation
 
 struct Flower: Decodable {
-    
     enum CodingKeys: String, CodingKey {
         case id
         case description

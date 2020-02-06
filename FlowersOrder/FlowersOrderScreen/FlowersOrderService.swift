@@ -10,7 +10,7 @@ import Foundation
 class FlowersOrderService {
     
     func parseData(flowerHandler: @escaping (_ flowers: [Flower]) -> Void) {
-        if let url = URL(string: "http://demo4349205.mockable.io/") {
+        if let url = URL(string: "http://demo2449505.mockable.io/") {
             URLSession.shared.dataTask(with: url) { data, response, error in
                 DispatchQueue.main.async {
                     guard let data = data else { return }

@@ -6,16 +6,25 @@
 //
 
 import Foundation
+import UIKit
+
+protocol FlowersOrderFlowDelegate: class {
+    func didSelect(flower: Flower, on flowerViewModel: FlowersOrderViewModelProtocol)
+}
 
 protocol FlowersOrderViewModelProtocol {
     var viewModelCells: [FlowerCellViewModelProtocol] { get }
+    var flowDelegate: FlowersOrderFlowDelegate? { get set }
+    
     func loadFlowers(completion: @escaping () -> Void)
+    func didSelectFlower(at indexPath: IndexPath)
 }
 
 class FlowersOrderViewModelImplementation: FlowersOrderViewModelProtocol {
     
     var flowers: [Flower] = []
     var viewModelCells: [FlowerCellViewModelProtocol] = []
+    var flowDelegate: FlowersOrderFlowDelegate?
     
     private let service: FlowersOrderService
     
@@ -35,5 +44,9 @@ class FlowersOrderViewModelImplementation: FlowersOrderViewModelProtocol {
         viewModelCells = flowers.map {
             FlowerCellViewModelImplementation(flower: $0)
         }
+    }
+    
+    func didSelectFlower(at indexPath: IndexPath) {
+        flowDelegate?.didSelect(flower: flowers[indexPath.row], on: self)
     }
 }
