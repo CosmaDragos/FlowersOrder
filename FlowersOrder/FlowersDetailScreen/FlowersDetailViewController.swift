@@ -17,16 +17,15 @@ class FlowersDetailViewController: UIViewController {
     @IBOutlet weak var deliverToLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
     }
     
     func setupUI() {
-        imageView.image = UIImage(named: viewModel.image_string)
         descriptionLabel.text = viewModel.description
         deliverToLabel.text = viewModel.delivered_to
-        priceLabel.text = "\(viewModel.price)"
+        priceLabel.text = viewModel.price
+        imageView.image = UIImage(named: viewModel.image_string) ?? UIImage()
     }
 }

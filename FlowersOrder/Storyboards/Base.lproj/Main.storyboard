@@ -114,7 +114,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="L8N-Vr-vtR">
                                         <rect key="frame" x="20" y="259.66666666666669" width="87.666666666666671" height="60.333333333333314"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3YL-O0-kKN">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3YL-O0-kKN">
                                                 <rect key="frame" x="0.0" y="0.0" width="87.666666666666671" height="20.333333333333332"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -169,7 +169,6 @@
                     <connections>
                         <outlet property="deliverToLabel" destination="Bcx-V4-UPZ" id="kZ9-DB-Rq6"/>
                         <outlet property="descriptionLabel" destination="3YL-O0-kKN" id="sWy-O8-0gM"/>
-                        <outlet property="headerView" destination="E6F-oS-tSL" id="Lu5-dY-QeJ"/>
                         <outlet property="imageView" destination="WiB-4J-Olg" id="4tU-3f-USm"/>
                         <outlet property="priceLabel" destination="0Y3-5L-pku" id="XA8-J0-Ipi"/>
                     </connections>

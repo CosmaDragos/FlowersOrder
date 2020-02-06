@@ -9,27 +9,28 @@
 import Foundation
 
 protocol FlowersDetailViewModelProtocol {
-    var description: String { get set }
-    var price: Double { get set }
-    var delivered_to: String { get set }
-    var image_string: String { get set }
+    var description: String { get }
+    var price: String { get }
+    var delivered_to: String { get }
+    var image_string: String { get }
 }
 
 class FlowersDetailViewModelImplementation: FlowersDetailViewModelProtocol {
-    var description: String
+
+    let description: String
     
-    var price: Double
+    let price: String
     
-    var delivered_to: String
+    let delivered_to: String
     
-    var image_string: String
+    let image_string: String
 
     private let flower: Flower
     
     init(flower: Flower) {
         self.flower = flower
         description = flower.description
-        price = flower.price
+        price = "\(flower.price)"
         delivered_to = flower.deliveredTo
         image_string = flower.imageString ?? ""
     }

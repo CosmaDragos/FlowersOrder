@@ -29,7 +29,7 @@ class FlowerConfiguratorImplementation: FlowerConfigurator {
 extension FlowerConfiguratorImplementation: FlowersOrderFlowDelegate {
     
     func didSelect(flower: Flower, on flowerViewModel: FlowersOrderViewModelProtocol) {
-        let viewController = FlowersDetailViewController()
+        guard let viewController = UIStoryboard(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "FlowersDetailStoryboard") as? FlowersDetailViewController else { return }
         let viewModel: FlowersDetailViewModelProtocol = FlowersDetailViewModelImplementation(flower: flower)
         viewController.viewModel = viewModel
         

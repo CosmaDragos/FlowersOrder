@@ -7,146 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "194187C0-8735-4F31-B81F-C2C9EB2F0C5C"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FlowersOrder/FlowersDetailScreen/FlowersDetailViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
-            landmarkName = "FlowersDetailViewController"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  uuid = "194187C0-8735-4F31-B81F-C2C9EB2F0C5C - 3d26796a839e016b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FlowersOrder.FlowersDetailViewController.viewModel.getter : Swift.Optional&lt;FlowersOrder.FlowersDetailViewModelProtocol&gt;"
-                  moduleName = "FlowersOrder"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dragoscosma/Documents/FlowersOrder/FlowersOrder/FlowersDetailScreen/FlowersDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "91">
-               </Location>
-               <Location
-                  uuid = "194187C0-8735-4F31-B81F-C2C9EB2F0C5C - f779b1af3e09567"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FlowersOrder.FlowersDetailViewController.viewModel.setter : Swift.Optional&lt;FlowersOrder.FlowersDetailViewModelProtocol&gt;"
-                  moduleName = "FlowersOrder"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dragoscosma/Documents/FlowersOrder/FlowersOrder/FlowersDetailScreen/FlowersDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "134">
-               </Location>
-               <Location
-                  uuid = "194187C0-8735-4F31-B81F-C2C9EB2F0C5C - 2f28de2bbbebee14"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FlowersOrder.FlowersDetailViewController.viewModel.modify : Swift.Optional&lt;FlowersOrder.FlowersDetailViewModelProtocol&gt;"
-                  moduleName = "FlowersOrder"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dragoscosma/Documents/FlowersOrder/FlowersOrder/FlowersDetailScreen/FlowersDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "18">
-               </Location>
-               <Location
-                  uuid = "194187C0-8735-4F31-B81F-C2C9EB2F0C5C - 907d46bc5fbcbff4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FlowersOrder.FlowersDetailViewController.viewModel.modify : Swift.Optional&lt;FlowersOrder.FlowersDetailViewModelProtocol&gt; with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "FlowersOrder"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dragoscosma/Documents/FlowersOrder/FlowersOrder/FlowersDetailScreen/FlowersDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  uuid = "194187C0-8735-4F31-B81F-C2C9EB2F0C5C - ca11253fe2f883d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FlowersOrder.FlowersDetailViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; FlowersOrder.FlowersDetailViewController"
-                  moduleName = "FlowersOrder"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dragoscosma/Documents/FlowersOrder/FlowersOrder/FlowersDetailScreen/FlowersDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "222">
-               </Location>
-               <Location
-                  uuid = "194187C0-8735-4F31-B81F-C2C9EB2F0C5C - 315f596af87c9a26"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FlowersOrder.FlowersDetailViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;FlowersOrder.FlowersDetailViewController&gt;"
-                  moduleName = "FlowersOrder"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dragoscosma/Documents/FlowersOrder/FlowersOrder/FlowersDetailScreen/FlowersDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "159">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "57133DC8-7FAE-4F93-B1B3-908B0167B287"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FlowersOrder/FlowersOrderScreen/Configurator.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "didSelect(flower:on:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E5419521-6FBE-4736-835F-2165851240C3"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FlowersOrder/FlowersOrderScreen/Configurator.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "didSelect(flower:on:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "1D356892-33A5-4D6C-A269-D767E7AF14FA"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -173,6 +33,38 @@
             startingLineNumber = "50"
             endingLineNumber = "50"
             landmarkName = "didSelectFlower(at:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7614DCB9-D0DB-44A7-B831-E284702885E4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FlowersOrder/FlowersDetailScreen/FlowersDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "setupUI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C297B75-F0FA-45E3-9F91-4C191E501AD2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FlowersOrder/FlowersDetailScreen/FlowersDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
