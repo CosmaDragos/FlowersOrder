@@ -7,66 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		859E355723EBEC63004BFDCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859E355623EBEC63004BFDCF /* AppDelegate.swift */; };
-		859E355923EBEC63004BFDCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859E355823EBEC63004BFDCF /* SceneDelegate.swift */; };
-		859E355B23EBEC63004BFDCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859E355A23EBEC63004BFDCF /* ViewController.swift */; };
-		859E355E23EBEC63004BFDCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859E355C23EBEC63004BFDCF /* Main.storyboard */; };
-		859E356023EBEC6B004BFDCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859E355F23EBEC6B004BFDCF /* Assets.xcassets */; };
-		859E356323EBEC6B004BFDCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859E356123EBEC6B004BFDCF /* LaunchScreen.storyboard */; };
-		859E356E23EBEC6B004BFDCF /* FlowersOrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859E356D23EBEC6B004BFDCF /* FlowersOrderTests.swift */; };
-		859E357923EBEC6B004BFDCF /* FlowersOrderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859E357823EBEC6B004BFDCF /* FlowersOrderUITests.swift */; };
+		E46F66C023E8902C006B0EDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46F66BF23E8902C006B0EDA /* AppDelegate.swift */; };
+		E46F66C223E8902C006B0EDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46F66C123E8902C006B0EDA /* SceneDelegate.swift */; };
+		E46F66C423E8902C006B0EDA /* FlowersOrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46F66C323E8902C006B0EDA /* FlowersOrderTableViewController.swift */; };
+		E46F66C723E8902C006B0EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E46F66C523E8902C006B0EDA /* Main.storyboard */; };
+		E46F66C923E8902E006B0EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E46F66C823E8902E006B0EDA /* Assets.xcassets */; };
+		E46F66CC23E8902E006B0EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E46F66CA23E8902E006B0EDA /* LaunchScreen.storyboard */; };
+		E46F66D723E8902E006B0EDA /* FlowersOrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46F66D623E8902E006B0EDA /* FlowersOrderTests.swift */; };
+		E46F66E223E89517006B0EDA /* FlowersOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46F66E123E89517006B0EDA /* FlowersOrderTableViewCell.swift */; };
+		E46F66E423E8A3D2006B0EDA /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46F66E323E8A3D2006B0EDA /* Flower.swift */; };
+		E4970F3023EB301D0017AA8F /* Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4970F2F23EB301D0017AA8F /* Configurator.swift */; };
+		E4CDDA1A23E9D28B00D20A4B /* FlowersOrderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CDDA1923E9D28B00D20A4B /* FlowersOrderService.swift */; };
+		E4CDDA1C23E9D39D00D20A4B /* FlowersOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CDDA1B23E9D39D00D20A4B /* FlowersOrderViewModel.swift */; };
+		E4CDDA1E23E9D89300D20A4B /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CDDA1D23E9D89300D20A4B /* CellViewModel.swift */; };
+		E4CDDA2123E9E3F100D20A4B /* FlowersDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CDDA2023E9E3F100D20A4B /* FlowersDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		859E356A23EBEC6B004BFDCF /* PBXContainerItemProxy */ = {
+		E46F66D323E8902E006B0EDA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 859E354B23EBEC63004BFDCF /* Project object */;
+			containerPortal = E46F66B423E8902C006B0EDA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 859E355223EBEC63004BFDCF;
-			remoteInfo = FlowersOrder;
-		};
-		859E357523EBEC6B004BFDCF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 859E354B23EBEC63004BFDCF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 859E355223EBEC63004BFDCF;
+			remoteGlobalIDString = E46F66BB23E8902C006B0EDA;
 			remoteInfo = FlowersOrder;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		859E355323EBEC63004BFDCF /* FlowersOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowersOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		859E355623EBEC63004BFDCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		859E355823EBEC63004BFDCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		859E355A23EBEC63004BFDCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		859E355D23EBEC63004BFDCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		859E355F23EBEC6B004BFDCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		859E356223EBEC6B004BFDCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		859E356423EBEC6B004BFDCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		859E356923EBEC6B004BFDCF /* FlowersOrderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowersOrderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		859E356D23EBEC6B004BFDCF /* FlowersOrderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersOrderTests.swift; sourceTree = "<group>"; };
-		859E356F23EBEC6B004BFDCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		859E357423EBEC6B004BFDCF /* FlowersOrderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowersOrderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		859E357823EBEC6B004BFDCF /* FlowersOrderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersOrderUITests.swift; sourceTree = "<group>"; };
-		859E357A23EBEC6B004BFDCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E46F66BC23E8902C006B0EDA /* FlowersOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowersOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46F66BF23E8902C006B0EDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E46F66C123E8902C006B0EDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E46F66C323E8902C006B0EDA /* FlowersOrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersOrderTableViewController.swift; sourceTree = "<group>"; };
+		E46F66C623E8902C006B0EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E46F66C823E8902E006B0EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E46F66CB23E8902E006B0EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E46F66CD23E8902E006B0EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E46F66D223E8902E006B0EDA /* FlowersOrderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowersOrderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46F66D623E8902E006B0EDA /* FlowersOrderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersOrderTests.swift; sourceTree = "<group>"; };
+		E46F66D823E8902E006B0EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E46F66E123E89517006B0EDA /* FlowersOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersOrderTableViewCell.swift; sourceTree = "<group>"; };
+		E46F66E323E8A3D2006B0EDA /* Flower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower.swift; sourceTree = "<group>"; };
+		E4970F2F23EB301D0017AA8F /* Configurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurator.swift; sourceTree = "<group>"; };
+		E4CDDA1923E9D28B00D20A4B /* FlowersOrderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersOrderService.swift; sourceTree = "<group>"; };
+		E4CDDA1B23E9D39D00D20A4B /* FlowersOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersOrderViewModel.swift; sourceTree = "<group>"; };
+		E4CDDA1D23E9D89300D20A4B /* CellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewModel.swift; sourceTree = "<group>"; };
+		E4CDDA2023E9E3F100D20A4B /* FlowersDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		859E355023EBEC63004BFDCF /* Frameworks */ = {
+		E46F66B923E8902C006B0EDA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		859E356623EBEC6B004BFDCF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		859E357123EBEC6B004BFDCF /* Frameworks */ = {
+		E46F66CF23E8902E006B0EDA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,68 +72,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		859E354A23EBEC63004BFDCF = {
+		E46F66B323E8902C006B0EDA = {
 			isa = PBXGroup;
 			children = (
-				859E355523EBEC63004BFDCF /* FlowersOrder */,
-				859E356C23EBEC6B004BFDCF /* FlowersOrderTests */,
-				859E357723EBEC6B004BFDCF /* FlowersOrderUITests */,
-				859E355423EBEC63004BFDCF /* Products */,
+				E46F66BE23E8902C006B0EDA /* FlowersOrder */,
+				E46F66D523E8902E006B0EDA /* FlowersOrderTests */,
+				E46F66BD23E8902C006B0EDA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		859E355423EBEC63004BFDCF /* Products */ = {
+		E46F66BD23E8902C006B0EDA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				859E355323EBEC63004BFDCF /* FlowersOrder.app */,
-				859E356923EBEC6B004BFDCF /* FlowersOrderTests.xctest */,
-				859E357423EBEC6B004BFDCF /* FlowersOrderUITests.xctest */,
+				E46F66BC23E8902C006B0EDA /* FlowersOrder.app */,
+				E46F66D223E8902E006B0EDA /* FlowersOrderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		859E355523EBEC63004BFDCF /* FlowersOrder */ = {
+		E46F66BE23E8902C006B0EDA /* FlowersOrder */ = {
 			isa = PBXGroup;
 			children = (
-				859E355623EBEC63004BFDCF /* AppDelegate.swift */,
-				859E355823EBEC63004BFDCF /* SceneDelegate.swift */,
-				859E355A23EBEC63004BFDCF /* ViewController.swift */,
-				859E355C23EBEC63004BFDCF /* Main.storyboard */,
-				859E355F23EBEC6B004BFDCF /* Assets.xcassets */,
-				859E356123EBEC6B004BFDCF /* LaunchScreen.storyboard */,
-				859E356423EBEC6B004BFDCF /* Info.plist */,
+				E46F66BF23E8902C006B0EDA /* AppDelegate.swift */,
+				E46F66C123E8902C006B0EDA /* SceneDelegate.swift */,
+				E46F66C323E8902C006B0EDA /* FlowersOrderTableViewController.swift */,
+				E46F66E123E89517006B0EDA /* FlowersOrderTableViewCell.swift */,
+				E46F66C523E8902C006B0EDA /* Main.storyboard */,
+				E46F66C823E8902E006B0EDA /* Assets.xcassets */,
+				E46F66CA23E8902E006B0EDA /* LaunchScreen.storyboard */,
+				E46F66CD23E8902E006B0EDA /* Info.plist */,
+				E46F66E323E8A3D2006B0EDA /* Flower.swift */,
+				E4CDDA1923E9D28B00D20A4B /* FlowersOrderService.swift */,
+				E4CDDA1B23E9D39D00D20A4B /* FlowersOrderViewModel.swift */,
+				E4CDDA1D23E9D89300D20A4B /* CellViewModel.swift */,
+				E4CDDA2023E9E3F100D20A4B /* FlowersDetailViewController.swift */,
+				E4970F2F23EB301D0017AA8F /* Configurator.swift */,
 			);
 			path = FlowersOrder;
 			sourceTree = "<group>";
 		};
-		859E356C23EBEC6B004BFDCF /* FlowersOrderTests */ = {
+		E46F66D523E8902E006B0EDA /* FlowersOrderTests */ = {
 			isa = PBXGroup;
 			children = (
-				859E356D23EBEC6B004BFDCF /* FlowersOrderTests.swift */,
-				859E356F23EBEC6B004BFDCF /* Info.plist */,
+				E46F66D623E8902E006B0EDA /* FlowersOrderTests.swift */,
+				E46F66D823E8902E006B0EDA /* Info.plist */,
 			);
 			path = FlowersOrderTests;
-			sourceTree = "<group>";
-		};
-		859E357723EBEC6B004BFDCF /* FlowersOrderUITests */ = {
-			isa = PBXGroup;
-			children = (
-				859E357823EBEC6B004BFDCF /* FlowersOrderUITests.swift */,
-				859E357A23EBEC6B004BFDCF /* Info.plist */,
-			);
-			path = FlowersOrderUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		859E355223EBEC63004BFDCF /* FlowersOrder */ = {
+		E46F66BB23E8902C006B0EDA /* FlowersOrder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 859E357D23EBEC6B004BFDCF /* Build configuration list for PBXNativeTarget "FlowersOrder" */;
+			buildConfigurationList = E46F66DB23E8902E006B0EDA /* Build configuration list for PBXNativeTarget "FlowersOrder" */;
 			buildPhases = (
-				859E354F23EBEC63004BFDCF /* Sources */,
-				859E355023EBEC63004BFDCF /* Frameworks */,
-				859E355123EBEC63004BFDCF /* Resources */,
+				E46F66B823E8902C006B0EDA /* Sources */,
+				E46F66B923E8902C006B0EDA /* Frameworks */,
+				E46F66BA23E8902C006B0EDA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -145,69 +137,47 @@
 			);
 			name = FlowersOrder;
 			productName = FlowersOrder;
-			productReference = 859E355323EBEC63004BFDCF /* FlowersOrder.app */;
+			productReference = E46F66BC23E8902C006B0EDA /* FlowersOrder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		859E356823EBEC6B004BFDCF /* FlowersOrderTests */ = {
+		E46F66D123E8902E006B0EDA /* FlowersOrderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 859E358023EBEC6B004BFDCF /* Build configuration list for PBXNativeTarget "FlowersOrderTests" */;
+			buildConfigurationList = E46F66DE23E8902E006B0EDA /* Build configuration list for PBXNativeTarget "FlowersOrderTests" */;
 			buildPhases = (
-				859E356523EBEC6B004BFDCF /* Sources */,
-				859E356623EBEC6B004BFDCF /* Frameworks */,
-				859E356723EBEC6B004BFDCF /* Resources */,
+				E46F66CE23E8902E006B0EDA /* Sources */,
+				E46F66CF23E8902E006B0EDA /* Frameworks */,
+				E46F66D023E8902E006B0EDA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				859E356B23EBEC6B004BFDCF /* PBXTargetDependency */,
+				E46F66D423E8902E006B0EDA /* PBXTargetDependency */,
 			);
 			name = FlowersOrderTests;
 			productName = FlowersOrderTests;
-			productReference = 859E356923EBEC6B004BFDCF /* FlowersOrderTests.xctest */;
+			productReference = E46F66D223E8902E006B0EDA /* FlowersOrderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		859E357323EBEC6B004BFDCF /* FlowersOrderUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 859E358323EBEC6B004BFDCF /* Build configuration list for PBXNativeTarget "FlowersOrderUITests" */;
-			buildPhases = (
-				859E357023EBEC6B004BFDCF /* Sources */,
-				859E357123EBEC6B004BFDCF /* Frameworks */,
-				859E357223EBEC6B004BFDCF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				859E357623EBEC6B004BFDCF /* PBXTargetDependency */,
-			);
-			name = FlowersOrderUITests;
-			productName = FlowersOrderUITests;
-			productReference = 859E357423EBEC6B004BFDCF /* FlowersOrderUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		859E354B23EBEC63004BFDCF /* Project object */ = {
+		E46F66B423E8902C006B0EDA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = "Dragos Cosma";
+				ORGANIZATIONNAME = NewBlack;
 				TargetAttributes = {
-					859E355223EBEC63004BFDCF = {
+					E46F66BB23E8902C006B0EDA = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
-					859E356823EBEC6B004BFDCF = {
+					E46F66D123E8902E006B0EDA = {
 						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 859E355223EBEC63004BFDCF;
-					};
-					859E357323EBEC6B004BFDCF = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 859E355223EBEC63004BFDCF;
+						TestTargetID = E46F66BB23E8902C006B0EDA;
 					};
 				};
 			};
-			buildConfigurationList = 859E354E23EBEC63004BFDCF /* Build configuration list for PBXProject "FlowersOrder" */;
+			buildConfigurationList = E46F66B723E8902C006B0EDA /* Build configuration list for PBXProject "FlowersOrder" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,37 +185,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 859E354A23EBEC63004BFDCF;
-			productRefGroup = 859E355423EBEC63004BFDCF /* Products */;
+			mainGroup = E46F66B323E8902C006B0EDA;
+			productRefGroup = E46F66BD23E8902C006B0EDA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				859E355223EBEC63004BFDCF /* FlowersOrder */,
-				859E356823EBEC6B004BFDCF /* FlowersOrderTests */,
-				859E357323EBEC6B004BFDCF /* FlowersOrderUITests */,
+				E46F66BB23E8902C006B0EDA /* FlowersOrder */,
+				E46F66D123E8902E006B0EDA /* FlowersOrderTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		859E355123EBEC63004BFDCF /* Resources */ = {
+		E46F66BA23E8902C006B0EDA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				859E356323EBEC6B004BFDCF /* LaunchScreen.storyboard in Resources */,
-				859E356023EBEC6B004BFDCF /* Assets.xcassets in Resources */,
-				859E355E23EBEC63004BFDCF /* Main.storyboard in Resources */,
+				E46F66CC23E8902E006B0EDA /* LaunchScreen.storyboard in Resources */,
+				E46F66C923E8902E006B0EDA /* Assets.xcassets in Resources */,
+				E46F66C723E8902C006B0EDA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		859E356723EBEC6B004BFDCF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		859E357223EBEC6B004BFDCF /* Resources */ = {
+		E46F66D023E8902E006B0EDA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,60 +217,54 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		859E354F23EBEC63004BFDCF /* Sources */ = {
+		E46F66B823E8902C006B0EDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				859E355B23EBEC63004BFDCF /* ViewController.swift in Sources */,
-				859E355723EBEC63004BFDCF /* AppDelegate.swift in Sources */,
-				859E355923EBEC63004BFDCF /* SceneDelegate.swift in Sources */,
+				E46F66C423E8902C006B0EDA /* FlowersOrderTableViewController.swift in Sources */,
+				E4CDDA1A23E9D28B00D20A4B /* FlowersOrderService.swift in Sources */,
+				E4CDDA2123E9E3F100D20A4B /* FlowersDetailViewController.swift in Sources */,
+				E4CDDA1E23E9D89300D20A4B /* CellViewModel.swift in Sources */,
+				E46F66E223E89517006B0EDA /* FlowersOrderTableViewCell.swift in Sources */,
+				E46F66E423E8A3D2006B0EDA /* Flower.swift in Sources */,
+				E46F66C023E8902C006B0EDA /* AppDelegate.swift in Sources */,
+				E4CDDA1C23E9D39D00D20A4B /* FlowersOrderViewModel.swift in Sources */,
+				E4970F3023EB301D0017AA8F /* Configurator.swift in Sources */,
+				E46F66C223E8902C006B0EDA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		859E356523EBEC6B004BFDCF /* Sources */ = {
+		E46F66CE23E8902E006B0EDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				859E356E23EBEC6B004BFDCF /* FlowersOrderTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		859E357023EBEC6B004BFDCF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				859E357923EBEC6B004BFDCF /* FlowersOrderUITests.swift in Sources */,
+				E46F66D723E8902E006B0EDA /* FlowersOrderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		859E356B23EBEC6B004BFDCF /* PBXTargetDependency */ = {
+		E46F66D423E8902E006B0EDA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 859E355223EBEC63004BFDCF /* FlowersOrder */;
-			targetProxy = 859E356A23EBEC6B004BFDCF /* PBXContainerItemProxy */;
-		};
-		859E357623EBEC6B004BFDCF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 859E355223EBEC63004BFDCF /* FlowersOrder */;
-			targetProxy = 859E357523EBEC6B004BFDCF /* PBXContainerItemProxy */;
+			target = E46F66BB23E8902C006B0EDA /* FlowersOrder */;
+			targetProxy = E46F66D323E8902E006B0EDA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		859E355C23EBEC63004BFDCF /* Main.storyboard */ = {
+		E46F66C523E8902C006B0EDA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				859E355D23EBEC63004BFDCF /* Base */,
+				E46F66C623E8902C006B0EDA /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		859E356123EBEC6B004BFDCF /* LaunchScreen.storyboard */ = {
+		E46F66CA23E8902E006B0EDA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				859E356223EBEC6B004BFDCF /* Base */,
+				E46F66CB23E8902E006B0EDA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +272,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		859E357B23EBEC6B004BFDCF /* Debug */ = {
+		E46F66D923E8902E006B0EDA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +332,7 @@
 			};
 			name = Debug;
 		};
-		859E357C23EBEC6B004BFDCF /* Release */ = {
+		E46F66DA23E8902E006B0EDA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,46 +386,49 @@
 			};
 			name = Release;
 		};
-		859E357E23EBEC6B004BFDCF /* Debug */ = {
+		E46F66DC23E8902E006B0EDA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HT46895W3U;
 				INFOPLIST_FILE = FlowersOrder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ro.Cosma.FlowersOrder;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.newblack.FlowersOrder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		859E357F23EBEC6B004BFDCF /* Release */ = {
+		E46F66DD23E8902E006B0EDA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HT46895W3U;
 				INFOPLIST_FILE = FlowersOrder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ro.Cosma.FlowersOrder;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.newblack.FlowersOrder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		859E358123EBEC6B004BFDCF /* Debug */ = {
+		E46F66DF23E8902E006B0EDA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HT46895W3U;
 				INFOPLIST_FILE = FlowersOrderTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -477,7 +436,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ro.Cosma.FlowersOrderTests;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.newblack.FlowersOrderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -485,12 +444,13 @@
 			};
 			name = Debug;
 		};
-		859E358223EBEC6B004BFDCF /* Release */ = {
+		E46F66E023E8902E006B0EDA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HT46895W3U;
 				INFOPLIST_FILE = FlowersOrderTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -498,92 +458,45 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ro.Cosma.FlowersOrderTests;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.newblack.FlowersOrderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowersOrder.app/FlowersOrder";
-			};
-			name = Release;
-		};
-		859E358423EBEC6B004BFDCF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FlowersOrderUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ro.Cosma.FlowersOrderUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FlowersOrder;
-			};
-			name = Debug;
-		};
-		859E358523EBEC6B004BFDCF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FlowersOrderUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ro.Cosma.FlowersOrderUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FlowersOrder;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		859E354E23EBEC63004BFDCF /* Build configuration list for PBXProject "FlowersOrder" */ = {
+		E46F66B723E8902C006B0EDA /* Build configuration list for PBXProject "FlowersOrder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				859E357B23EBEC6B004BFDCF /* Debug */,
-				859E357C23EBEC6B004BFDCF /* Release */,
+				E46F66D923E8902E006B0EDA /* Debug */,
+				E46F66DA23E8902E006B0EDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		859E357D23EBEC6B004BFDCF /* Build configuration list for PBXNativeTarget "FlowersOrder" */ = {
+		E46F66DB23E8902E006B0EDA /* Build configuration list for PBXNativeTarget "FlowersOrder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				859E357E23EBEC6B004BFDCF /* Debug */,
-				859E357F23EBEC6B004BFDCF /* Release */,
+				E46F66DC23E8902E006B0EDA /* Debug */,
+				E46F66DD23E8902E006B0EDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		859E358023EBEC6B004BFDCF /* Build configuration list for PBXNativeTarget "FlowersOrderTests" */ = {
+		E46F66DE23E8902E006B0EDA /* Build configuration list for PBXNativeTarget "FlowersOrderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				859E358123EBEC6B004BFDCF /* Debug */,
-				859E358223EBEC6B004BFDCF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		859E358323EBEC6B004BFDCF /* Build configuration list for PBXNativeTarget "FlowersOrderUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				859E358423EBEC6B004BFDCF /* Debug */,
-				859E358523EBEC6B004BFDCF /* Release */,
+				E46F66DF23E8902E006B0EDA /* Debug */,
+				E46F66E023E8902E006B0EDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 859E354B23EBEC63004BFDCF /* Project object */;
+	rootObject = E46F66B423E8902C006B0EDA /* Project object */;
 }

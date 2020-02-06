@@ -2,8 +2,7 @@
 //  AppDelegate.swift
 //  FlowersOrder
 //
-//  Created by Dragos Cosma on 06/02/2020.
-//  Copyright © 2020 Dragos Cosma. All rights reserved.
+//  Created by Dragos Cosma on 03/02/2020.
 //
 
 import UIKit
@@ -11,10 +10,7 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
         return true
     }
 

@@ -2,8 +2,7 @@
 //  FlowersOrderTests.swift
 //  FlowersOrderTests
 //
-//  Created by Dragos Cosma on 06/02/2020.
-//  Copyright © 2020 Dragos Cosma. All rights reserved.
+//  Created by Dragos Cosma on 03/02/2020.
 //
 
 import XCTest
