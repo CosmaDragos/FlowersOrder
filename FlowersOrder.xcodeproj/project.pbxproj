@@ -13,7 +13,6 @@
 		E46F66C423E8902C006B0EDA /* FlowersOrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46F66C323E8902C006B0EDA /* FlowersOrderTableViewController.swift */; };
 		E46F66C723E8902C006B0EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E46F66C523E8902C006B0EDA /* Main.storyboard */; };
 		E46F66C923E8902E006B0EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E46F66C823E8902E006B0EDA /* Assets.xcassets */; };
-		E46F66CC23E8902E006B0EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E46F66CA23E8902E006B0EDA /* LaunchScreen.storyboard */; };
 		E46F66D723E8902E006B0EDA /* FlowersOrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46F66D623E8902E006B0EDA /* FlowersOrderTests.swift */; };
 		E46F66E223E89517006B0EDA /* FlowersOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46F66E123E89517006B0EDA /* FlowersOrderTableViewCell.swift */; };
 		E46F66E423E8A3D2006B0EDA /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46F66E323E8A3D2006B0EDA /* Flower.swift */; };
@@ -42,7 +41,6 @@
 		E46F66C323E8902C006B0EDA /* FlowersOrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersOrderTableViewController.swift; sourceTree = "<group>"; };
 		E46F66C623E8902C006B0EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E46F66C823E8902E006B0EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E46F66CB23E8902E006B0EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E46F66CD23E8902E006B0EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E46F66D223E8902E006B0EDA /* FlowersOrderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowersOrderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46F66D623E8902E006B0EDA /* FlowersOrderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersOrderTests.swift; sourceTree = "<group>"; };
@@ -78,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				E46F66C523E8902C006B0EDA /* Main.storyboard */,
-				E46F66CA23E8902E006B0EDA /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -236,7 +233,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E46F66CC23E8902E006B0EDA /* LaunchScreen.storyboard in Resources */,
 				E46F66C923E8902E006B0EDA /* Assets.xcassets in Resources */,
 				E46F66C723E8902C006B0EDA /* Main.storyboard in Resources */,
 			);
@@ -295,14 +291,6 @@
 				E46F66C623E8902C006B0EDA /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E46F66CA23E8902E006B0EDA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E46F66CB23E8902E006B0EDA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

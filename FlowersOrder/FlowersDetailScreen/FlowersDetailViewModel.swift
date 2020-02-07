@@ -18,13 +18,10 @@ protocol FlowersDetailViewModelProtocol {
 class FlowersDetailViewModelImplementation: FlowersDetailViewModelProtocol {
 
     let description: String
-    
     let price: String
-    
     let delivered_to: String
-    
     let image_string: String
-
+    
     private let flower: Flower
     
     init(flower: Flower) {
