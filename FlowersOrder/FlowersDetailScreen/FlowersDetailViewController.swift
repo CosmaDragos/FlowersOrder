@@ -24,8 +24,8 @@ class FlowersDetailViewController: UIViewController {
     
     func setupUI() {
         descriptionLabel.text = viewModel.description
-        deliverToLabel.text = viewModel.delivered_to
+        deliverToLabel.text = viewModel.deliveredTo
         priceLabel.text = viewModel.price
-        imageView.image = UIImage(named: viewModel.image_string) ?? UIImage()
+        imageView.image = UIImage(named: viewModel.imageString) ?? UIImage()
     }
 }

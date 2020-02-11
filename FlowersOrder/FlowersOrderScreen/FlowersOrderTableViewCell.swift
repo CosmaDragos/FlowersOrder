@@ -26,6 +26,17 @@ class FlowersOrderTableViewCell: UITableViewCell {
         smallImage.clipsToBounds = true
     }
     
+    override func prepareForReuse() {
+        clearLabels()
+    }
+    
+    func clearLabels() {
+        smallImage.image = UIImage()
+        priceLabel.text = ""
+        descriptionLabel.text = ""
+        deliveredToLabel.text = ""
+    }
+    
     func setupCell() {
         descriptionLabel.text = viewModel?.description
         priceLabel.text = viewModel?.price

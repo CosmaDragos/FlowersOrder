@@ -33,10 +33,16 @@ class FlowersOrderViewModelImplementation: FlowersOrderViewModelProtocol {
     }
     
     func loadFlowers(completion: @escaping () -> Void) {
-        service.parseData(flowerHandler: { [weak self] flowers in
-            self?.flowers = flowers
-            self?.mapFlowersToViewModel()
-            completion()
+        service.parseData(result: { [weak self] result in
+            switch result {
+            case .success(let flowers):
+                self?.flowers = flowers
+                self?.mapFlowersToViewModel()
+                completion()
+            case .failure(let error):
+                //TODO: Present the error to the user
+                print(error)
+            }
         })
     }
     
